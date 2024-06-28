@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Helen Stosky Poluboiarinov, Número de estudiante: 337438
 #María Agustina Ahumada, Número de estudiante: 329062
 
 #declaración de variables de las letras, usuario logueado y vocal configuradas
@@ -293,5 +294,4 @@ read user # guarda el usuario ingresado en esta variable
 echo "Ingrese Contraseña"
 read pass # guarda la contraseña ingresada en esta variable
 autenticacion $user $pass # llama a la función autenticación y le pasa los datos de las variables user y pass
-
 
